@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{2a822e06-411a-419b-8091-70aa0908cffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2d">
+      <UniqueIdentifier>{5a7e7101-2315-47fa-8a62-730cdfab52c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{85ab0f5d-a8b4-4a05-83d1-348602b18cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{12be5016-48b8-4c34-9d8c-4f915f5e1efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pugixml">
+      <UniqueIdentifier>{862b369d-8247-49a1-aeaf-a36d4d1d8d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{f2409a31-caea-4f13-937b-d7a239acc3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{6b9312b5-92b6-4c63-b939-c0dc97c9e69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{2328f052-db27-4f00-949b-c39d5c662683}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\CoreInclude.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\CoreMacros.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ClassMeta.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GameObject.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\StdHelper.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GameObjectComponent.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GameManager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Scene.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Application.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Logger.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\2dInclude.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\2dMacros.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="aladdin.h" />
+    <ClInclude Include="2d\Graphics.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Sprite.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Color.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GameResource.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ResourceInitializer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\SpriteRenderer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Prefab.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Vec2.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Rect.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Size.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Transform.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Initializable.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Releasable.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Loadable.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Messenger.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="input\InputInclude.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\InputMarcos.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="input\Input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="core\StringMessageArgs.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\MessageArgs.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\MessageListener.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Mat4.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Camera.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\AudioMarcos.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\AudioInclude.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\AudioClip.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\AudioSource.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\dxaudio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Audio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="core\StateManager.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Animator.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugiconfig.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugixml.hpp">
+      <Filter>pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Animation.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\RectMessageArgs.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\AnimationAction.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Sound.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="core\StateTransition.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\State.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\Collider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\Rigidbody.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\PhysicsInclude.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\PhysicsManager.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\PhysicsMaterial.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\CollisionInfo.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\Font.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\Text.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\FontInfo.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\RectTransform.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CameraPrefab.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\LineRenderer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\ExtraMacros.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\ExtraInclude.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\Timer.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\AnimationEditor.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\PhysicsMacros.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\ColliderRenderer.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\RectRenderer.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="core\QuadNode.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\QuadTree.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\Action.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\ActionManager.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\Blink.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\MoveBy.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\RotateBy.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\Sequence.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\Repeat.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\ClassMeta.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GameObject.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GameObjectComponent.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GameManager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Scene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Application.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Logger.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Graphics.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Sprite.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Color.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\GameResource.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ResourceInitializer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\SpriteRenderer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Prefab.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Vec2.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Rect.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Size.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Transform.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Initializable.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Releasable.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Loadable.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="input\Input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Messenger.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\StringMessageArgs.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\MessageArgs.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\MessageListener.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Mat4.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Camera.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\AudioClip.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\AudioSource.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\dxaudio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\Audio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="core\StateManager.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Animator.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\pugixml.cpp">
+      <Filter>pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\Animation.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\RectMessageArgs.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\AnimationAction.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\Sound.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="core\StateTransition.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\State.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Font.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Text.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\FontInfo.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\RectTransform.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CameraPrefab.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\LineRenderer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\Collider.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\Rigidbody.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\PhysicsManager.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\PhysicsMaterial.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\CollisionInfo.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\Timer.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\AnimationEditor.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\ColliderRenderer.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\RectRenderer.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="core\QuadNode.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\QuadTree.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\Action.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\ActionManager.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\Blink.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\MoveBy.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\RotateBy.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\Sequence.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\Repeat.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
